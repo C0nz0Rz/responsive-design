@@ -32,7 +32,19 @@ h1 {
 
 .article {
 	padding: 10px;
-	border: 2px double var(--deep-mocha);
+	border-bottom: 2px double var(--deep-mocha);
+}
+
+p a {
+	text-decoration: none;
+	color: var(--blue-bell);
+	font-weight: bold;
+	border-bottom: 2px solid var(--blue-bell);
+}
+
+p a:hover {
+	color: var(--grey-olive);
+	border-bottom: 2px dashed var(--grey-olive);
 }
 
 .manufacturing-consent-regular {
